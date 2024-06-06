@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9244bcaa67924ca19e0ea317e2a82757" Name="Diagram1" ZoomLevel="81">
+        <EntityTypeShape EntityType="EcommerceDBModel.Cart" Width="1.5" PointX="7.375" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceDBModel.MakeupBrand" Width="1.5" PointX="0.5" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceDBModel.Makeup" Width="1.5" PointX="4" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceDBModel.MakeupType" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceDBModel.TransactionDetail" Width="1.5" PointX="4" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceDBModel.TransactionHeader" Width="1.5" PointX="4.125" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommerceDBModel.User" Width="1.5" PointX="7.875" PointY="0.625" IsExpanded="true" />
+        <AssociationConnector Association="EcommerceDBModel.FK_Carts_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceDBModel.FK_Carts_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceDBModel.FK_Makeups_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceDBModel.FK_Makeups_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceDBModel.FK_TransactionDetails_ToTable_1" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceDBModel.FK_TransactionDetails_ToTable" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommerceDBModel.FK_TransactionHeaders_ToTable" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
